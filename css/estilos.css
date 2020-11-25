@@ -1,0 +1,81 @@
+
+
+	
+body {
+	font-family: 'Playball', cursive;
+	margin: 0;
+}
+
+.contenedor-banner{
+	background-image: url('https://d500.epimg.net/cincodias/imagenes/2019/02/07/fortunas/1549556482_529536_1549911175_noticia_normal.jpg') ;
+	background-size: cover;
+	background-position: center;
+	padding: 20px 0;
+	text-align: right;
+}
+
+h1{
+	color: black;
+	font-size: 45px;
+	margin-right: 65px;
+}
+p{
+	color: black;
+	font-size: 23px;
+	margin-right: 40px;
+}
+
+button{
+	color: grey;
+	background: lightblue;
+	padding: 16px 48;
+	border-radius: 15px;
+	display: inline-block;
+	text-decoration: none;
+	transition: .3s;
+	font-size: 20px;
+	border: none;
+	margin-right: 250px;
+
+}
+h2{
+	padding-left: 50px;
+}
+.cards-contenedor{
+	width: :1080px;
+	margin: 80px auto;
+}
+.cards{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.card{
+	background: white;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	padding: 54px;
+	margin: 5px 60px;
+
+}
+.card img{
+	width: 200px;
+	height: 200px;
+}
+
+
+footer{
+	background: grey;
+	padding: 10px 10px;
+	color: white;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+
+
+}
+
+
+
